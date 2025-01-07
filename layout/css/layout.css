@@ -17,13 +17,14 @@ body {
 
 .left-menu {
   background-color: darkcyan;
-  width: 200px;
+  width: 20%;
   height: 100%;
+  float: left;
 }
 
 .right {
   background-color: red;
-  width: 70%;
+  width: 80%;
   height: 100%;
   float: left;
 }

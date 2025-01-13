@@ -1,3 +1,14 @@
+.nav-container {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 10px;
+  
+}
 .main-background {
   padding: 1px;
   background-image: url('../img/shoes_background.jpg');

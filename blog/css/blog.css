@@ -8,7 +8,7 @@ body{
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
+  
 }
   
 .blog-content {
@@ -19,19 +19,11 @@ body{
 
 .blog-img {
   float: left;
-  width: 80%;
+  width: 20%;
   height: 200px;
+  vertical-align: middle;
 }
 
-.content{
-  background-image: url('../img/blog_img.JPG');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  float: left;
-  width: 20%;
-  height: 100%;
-}
 
 .profile-img {
   width: 100px;

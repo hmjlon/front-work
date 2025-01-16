@@ -1,0 +1,195 @@
+
+.main-background {
+  position: relative;
+  background:linear-gradient(skyblue,darkslateblue);
+  display: flex;
+  
+  width: 100%;
+  height: 350px;
+  padding: 20px;
+  margin: auto ;
+  text-align: center;
+  top: -50px;
+  
+}
+.main-text p {
+  width: 300px;
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+.main-text h2 {
+  width: 300px;
+  color: white;
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 50px;
+
+
+}
+
+
+.main-button {
+  font-size: 15px;
+  background-color:dimgrey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  margin-left: 50px;
+  }
+
+
+
+.main-iphone{
+  display: flex;
+  justify-content: right;
+  margin-top: 120px;
+
+  width: 250px;
+  height: 250px;
+  margin-left: 400px;
+  
+ 
+}
+
+.text {
+  text-align: center;
+}
+.text2 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.button {
+  font-size: 15px;
+  background-color:dimgrey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px ;
+  margin-bottom: 80px;
+ 
+
+}
+
+.explain-container {
+  background-color: darkslateblue;
+  height: 250px;
+  text-align: center;
+  color: white;
+
+}
+
+.explain-container p h3 {
+  
+}
+
+.explain-title1 {
+  
+
+}
+
+.explain-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.explain{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.explain i {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: darkslateblue;
+  box-sizing: border-box;
+
+}
+
+.service{
+  text-align: center;
+}
+
+
+
+
+
+.img-text1{
+  position: absolute;
+  padding-left: 30px;
+  margin-top: 50px;
+
+}
+
+.img-text2 {
+  padding-left: 300px;
+  position: absolute;
+  margin-top: 50px;
+  padding-left: 330px;
+}
+
+.img-text3 {
+  padding-top: 200px;
+  position: absolute;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+
+.img-text4{
+  padding-left: 330px;
+  padding-top: 200px;
+  padding-right: 100px;
+  position: absolute;
+  margin-top: 40px;
+}
+
+
+.icon{
+text-align: center;
+}
+.icon i {
+  background-color: slateblue;
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color:white;
+  box-sizing: border-box;
+  margin-right: 50px;
+
+}
+
+.text-end {
+  text-align: center;
+}
+
+
+@media screen and (max-width : 992px) {
+  .main-iphone {
+    width: 260px;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 42px;
+  }
+  .main-text {
+    float: none;
+    margin-top: 50px;
+    text-align: center;
+  }
+}

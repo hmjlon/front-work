@@ -1,0 +1,31 @@
+.white-box, .icon_c {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 1px #eee;
+  margin-top: 50px;
+}
+
+.col-md-4{
+  border-left : 1px solid black
+}
+
+
+
+.pill {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 100px;
+  padding: 3px 12px 5px 12px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
+.icon_c{
+  text-align: center;
+
+}
+.icon_c i{
+  font-size: 50px;
+  padding-bottom: 20px;
+  color:blue;
+}
